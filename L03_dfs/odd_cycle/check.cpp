@@ -1,5 +1,12 @@
 #include<bits/stdc++.h>
+
+#ifdef LOCAL
+#include "/home/tikhon/Documents/programs/testlib/testlib.h"
+#else
 #include "testlib.h"
+#endif
+
+
 using namespace std;
 #define ll long long
 #define pii pair<int, int>
