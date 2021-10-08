@@ -25,8 +25,18 @@ signed main() {
 	cin.tie(0);
 	cout.tie(0);
 
+	// как устроен vector?
+
 	vector<int> b = a;
 	out(b, "b");
+
+	b.reserve(100000);
+	ll x = 0;
+	for (int i = 0; i < 100000; i++) {
+		x += b[i];
+	}
+	cout << "x = " << x << '\n';
+
 	for (int i = 0; i < 5; i++) {
 		next_permutation(all(b));
 		out(b, "next_b");
