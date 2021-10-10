@@ -6,7 +6,7 @@ using namespace std;
 #define all(a) (a).begin(), (a).end()
 
 int f(vector<int> &v) {
-	for (int j = 0; j < 6 /*7*/; j++) {
+	for (int j = 0; j < 7; j++) {
 		v.push_back(0);
 	}
 	int ans = 0;
@@ -31,10 +31,8 @@ signed main() {
 	}
 	cout << '\n';
 
-	int* x = &a[0];
-	*x = f(a);
+	a[0] = f(a);
 
-	cout << "*x = " << *x << '\n';
 	cout << "a[0] = " << a[0] << '\n';
 
 	return 0;

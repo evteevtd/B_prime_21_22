@@ -12,7 +12,7 @@ signed main() {
 
 	// скомпилировать с O0, O1 и O2 
 
-	for (int i = 0; i < 30; i++) {
+	for (int i = 0; ; i++) {
 		cout << i * 123456789 << endl;
 	}
 
