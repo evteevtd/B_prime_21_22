@@ -1,0 +1,14 @@
+gen n=10 m=15 k=20 c=100 mode=rand > $
+gen n=10 m=20 k=15 c=100 mode=rand > $
+gen n=15 m=10 k=20 c=100 mode=rand > $
+gen n=15 m=20 k=10 c=100 mode=rand > $
+gen n=20 m=10 k=15 c=100 mode=rand > $
+gen n=20 m=15 k=10 c=100 mode=rand > $
+gen n=1000 m=1002 k=1001 mode=rand > $
+gen n=5000 m=5002 k=5001 mode=rand > $
+gen n=5000 m=5002 k=5001 mode=long > $
+gen n=100000 m=10 k=10 mode=rand > $
+gen n=10 m=100000 k=10 mode=rand > $
+gen n=10 m=10 k=100000 mode=rand > $
+gen n=100000 mode=rand > $
+gen n=100000 mode=long > $

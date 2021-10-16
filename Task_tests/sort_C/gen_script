@@ -1,0 +1,6 @@
+gen n=1000 ans=0 > $
+gen n=1000 ans=1 > $
+gen n=10000 ans=0 > $
+gen n=10000 ans=1 > $
+gen n=100000 ans=0 > $
+gen n=100000 ans=1 > $
