@@ -20,10 +20,10 @@ string gen(int len, bool how) {
 	if (how == 0) {
 		for (int i = 0; i < len; i++) s += '0' + rnd.next(0, 9);
 	} else {
-		int l = rnd.next(0, (int) s1.size() - len);
-		for (int i = l; i < l + len; i++) {
-			s += s1[i];
-		} 
+		s = s1;
+		for (int i = 0; i < len - mn_len; i++) {
+			s += '0' + rnd.next(0, 9);
+		}
 	}
 
 	return s;
@@ -46,13 +46,13 @@ int main(int argc, char* argv[]){
 	if (params.count("mn_len")) mn_len = stoi(params["mn_len"]);
 	if (params.count("mx_len")) mx_len = stoi(params["mx_len"]);
 
-	s1 = gen(rnd.next(mx_len, mx_len * 6 / 5), 0);
+	s1 = gen(mn_len, 0);
 
 	// cout << "s1 = " << s1 << '\n';
 
 	vector<string> v(n);
 	for (int i = 0; i < n; i++) {
-		v[i] = gen(rnd.next(mn_len, mx_len), rnd.next(0, 1));
+		v[i] = gen(rnd.next(mn_len, mx_len), rnd.next(0, 2));
 	}
 	v[rnd.next(0, n - 1)][0] = '0' + rnd.next(1, 9);
 

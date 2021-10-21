@@ -25,7 +25,7 @@ struct min_queue {
 		if (v.empty()) {
 			v.push_back(node(x, x));		
 		} else {
-			v.push_back(node(x, min(v.back().p_min, x)));
+			v.push_back(node(x, (v.back().p_min & x)));
 		}
 	}
 
@@ -42,7 +42,7 @@ struct min_queue {
 		if (!left.empty()) left.pop_back();
 	}
 	int get() {
-		int ans = 1e9 + 7;
+		int ans = (1 << 31) - 1;
 		if (!left.empty()) ans = min(ans, left.back().p_min);
 		if (!right.empty()) ans = min(ans, right.back().p_min);
 		return ans;

@@ -2,5 +2,5 @@ gen n=1000 mn_len=1 mx_len=5 > $
 gen n=1000 mn_len=10 mx_len=15 > $
 gen n=5000 mn_len=1 mx_len=5 > $
 gen n=10000 mn_len=1 mx_len=100 > $
-gen n=10000 mn_len=99 mx_len=100 > $
+gen n=10000 mn_len=90 mx_len=100 > $
 gen n=10000 mn_len=100 mx_len=100 > $
