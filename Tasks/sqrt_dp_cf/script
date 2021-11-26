@@ -1,0 +1,106 @@
+gen n=30000 d=10 mode=rand > $
+gen n=30000 d=10 mode=no_one > $
+gen n=30000 d=10 mode=exact > $
+gen n=30000 d=10 mode=2_way > $
+gen n=30000 d=10 mode=slow_down > $
+gen n=30000 d=10 mode=speed_up > $
+
+gen n=30000 d=939 mode=rand > $
+gen n=30000 d=939 mode=no_one > $
+gen n=30000 d=939 mode=exact > $
+gen n=30000 d=939 mode=2_way > $
+gen n=30000 d=939 mode=slow_down > $
+gen n=30000 d=939 mode=speed_up > $
+
+gen n=30000 d=140 mode=rand > $
+gen n=30000 d=140 mode=no_one > $
+gen n=30000 d=140 mode=exact > $
+gen n=30000 d=140 mode=2_way > $
+gen n=30000 d=140 mode=slow_down > $
+gen n=30000 d=140 mode=speed_up > $
+
+gen n=30000 d=2756 mode=rand > $
+gen n=30000 d=2756 mode=no_one > $
+gen n=30000 d=2756 mode=exact > $
+gen n=30000 d=2756 mode=2_way > $
+gen n=30000 d=2756 mode=slow_down > $
+gen n=30000 d=2756 mode=speed_up > $
+
+gen n=30000 d=795 mode=rand > $
+gen n=30000 d=795 mode=no_one > $
+gen n=30000 d=795 mode=exact > $
+gen n=30000 d=795 mode=2_way > $
+gen n=30000 d=795 mode=slow_down > $
+gen n=30000 d=795 mode=speed_up > $
+
+gen n=30000 d=6432 mode=rand > $
+gen n=30000 d=6432 mode=no_one > $
+gen n=30000 d=6432 mode=exact > $
+gen n=30000 d=6432 mode=2_way > $
+gen n=30000 d=6432 mode=slow_down > $
+gen n=30000 d=6432 mode=speed_up > $
+
+gen n=30000 d=180 mode=rand > $
+gen n=30000 d=180 mode=no_one > $
+gen n=30000 d=180 mode=exact > $
+gen n=30000 d=180 mode=2_way > $
+gen n=30000 d=180 mode=slow_down > $
+gen n=30000 d=180 mode=speed_up > $
+
+gen n=30000 d=29999 mode=rand > $
+gen n=30000 d=29999 mode=no_one > $
+gen n=30000 d=29999 mode=exact > $
+gen n=30000 d=29999 mode=2_way > $
+gen n=30000 d=29999 mode=slow_down > $
+gen n=30000 d=29999 mode=speed_up > $
+
+gen n=30000 d=30000 mode=rand > $
+gen n=30000 d=30000 mode=no_one > $
+gen n=30000 d=30000 mode=exact > $
+gen n=30000 d=30000 mode=2_way > $
+gen n=30000 d=30000 mode=slow_down > $
+gen n=30000 d=30000 mode=speed_up > $
+
+gen n=30000 d=19113 mode=rand > $
+gen n=30000 d=19113 mode=no_one > $
+gen n=30000 d=19113 mode=exact > $
+gen n=30000 d=19113 mode=2_way > $
+gen n=30000 d=19113 mode=slow_down > $
+gen n=30000 d=19113 mode=speed_up > $
+
+
+gen n=30000 d=7301 mode=rand > $
+gen n=30000 d=7301 mode=no_one > $
+gen n=30000 d=7301 mode=exact > $
+gen n=30000 d=7301 mode=2_way > $
+gen n=30000 d=7301 mode=slow_down > $
+gen n=30000 d=7301 mode=speed_up > $
+
+gen n=30000 d=3998 mode=rand > $
+gen n=30000 d=3998 mode=no_one > $
+gen n=30000 d=3998 mode=exact > $
+gen n=30000 d=3998 mode=2_way > $
+gen n=30000 d=3998 mode=slow_down > $
+gen n=30000 d=3998 mode=speed_up > $
+
+gen n=30000 d=28185 mode=rand > $
+gen n=30000 d=28185 mode=no_one > $
+gen n=30000 d=28185 mode=exact > $
+gen n=30000 d=28185 mode=2_way > $
+gen n=30000 d=28185 mode=slow_down > $
+gen n=30000 d=28185 mode=speed_up > $
+
+gen n=30000 d=220 mode=rand > $
+gen n=30000 d=220 mode=no_one > $
+gen n=30000 d=220 mode=exact > $
+gen n=30000 d=220 mode=2_way > $
+gen n=30000 d=220 mode=slow_down > $
+gen n=30000 d=220 mode=speed_up > $
+
+
+gen n=30000 d=325 mode=rand > $
+gen n=30000 d=325 mode=no_one > $
+gen n=30000 d=325 mode=exact > $
+gen n=30000 d=325 mode=2_way > $
+gen n=30000 d=325 mode=slow_down > $
+gen n=30000 d=325 mode=speed_up > $

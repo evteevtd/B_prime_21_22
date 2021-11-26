@@ -1,0 +1,20 @@
+gen t=1 n=10 max_a=100 mode=rand > $
+gen t=1 n=10 max_a=100 mode=every > $
+gen t=1 n=10 max_a=100 mode=start2 > $
+
+gen t=10 n=1000 max_a=10000 mode=rand > $
+gen t=10 n=1000 max_a=10000 mode=every > $
+gen t=10 n=1000 max_a=10000 mode=start2 > $
+
+gen t=1 n=2e5 max_a=2e5 mode=rand > $
+gen t=1 n=2e5 max_a=2e5 mode=every > $
+gen t=1 n=2e5 max_a=2e5 mode=start2 > $
+
+gen t=10 m_n=2e5 max_a=2e5 mode=rand > $
+gen t=10 m_n=2e5 max_a=2e5 mode=every > $
+gen t=10 m_n=2e5 max_a=2e5 mode=start2 > $
+
+gen t=10 n=2e5 max_a=2e5 mode=pw2 > $
+gen t=10 n=2e5 max_a=1e5 mode=every+pw > $
+gen t=10 m_n=2e5 max_a=2e5 mode=pw2 > $
+gen t=10 m_n=2e5 max_a=1e5 mode=every+pw > $
